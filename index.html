@@ -25,7 +25,7 @@
 
 <body>
 	
-<div class="loaded">
+	<div class="loaded">
 		<div id="preloader " class="wrapper">
 			<div class="loader rubik-loader"></div>
 			<div class=""><p>Пожалуйста подождите, страница загружается</p></div>
@@ -76,7 +76,7 @@
 				<div class="header-inner col-xl-4">
 					<div class="header-inner__item header-item__first df">
 						<div class="header-item__img  header-item__img-first ">
-							<img data-original="./img/icon/card-icon.png" class="lazyload" alt="card-icon">
+							<img src="./img/icon/card-icon.png"  alt="card-icon">
 						</div>					
 						<div class="header-item__text fontFamilyLato">
 							<p>Через 4-6 месяцев вы получите 100-900 тыс. руб. на счет</p>
@@ -84,7 +84,7 @@
 					</div>
 					<div class="header-inner__item header-item__two df">
 						<div class="header-item__img header-item__img-two">
-							<img data-original="./img/icon/paper-a4-inner.svg" class="lazyload" alt="paper-a4">
+							<img src="./img/icon/paper-a4-inner.svg"  alt="paper-a4">
 						</div>					
 						<div class="header-item__text fontFamilyLato">
 							<p>От вас - только подписать договор и доверенность в офисе или дистанционно</p>
@@ -92,12 +92,15 @@
 					</div>
 					<div class="header-inner__item header-item__last df">
 						<div class="header-item__img header-item__img-last ">
-							<img data-original="./img/icon/an-apartment.svg" class="lazyload" alt="в новостройке">
+							<img src="./img/icon/an-apartment.svg"  alt="в новостройке">
 						</div>					
 						<div class="header-item__text fontFamilyLato">
 							<p>Доступно в любой новостройке!</p>
 						</div>
 					</div>
+				</div>
+				<div class="header-bg">
+					<img src="./img/bg/header-bg__front.png" alt="">
 				</div>
 			</div>
 		</div>
@@ -118,7 +121,7 @@
 								</p>
 							</div>
 						</div>
-						<div class="description-box__btn col-xl primary-btn fontFamilyLato">
+						<div class="description-box__btn col-xl primary-btn hidden-desctop fontFamilyLato">
 							<form action="index.html"><button type="submit">Оставить заявку</button></form>
 						</div>
 					</div>
@@ -131,7 +134,10 @@
 							<div class="input-icon__point"></div>
 							<input type="text" id="point-four" placeholder="Адрес новостройки">
 							<div class="input-icon__phone"></div>
-							<input type="tel" id="phone-four" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="12" placeholder="Телефон">
+							<input type="tel" id="phone-five" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="12" placeholder="Телефон">
+						</div>
+						<div class="description-box__btn col-xl primary-btn hidden-mobile fontFamilyLato">
+							<form action="index.html"><button type="submit">Оставить заявку</button></form>
 						</div>
 						<div class="description-checkbox fontFamilyGilroy">
 							<p>Нажимая на кнопку, вы даете согласие на обработку своих персональных данных и соглашаетесь с политикой конфеденциальности</p>
@@ -155,9 +161,9 @@
 			</div>
 			<div class="modal-window__input  input-primary fontFamilyLato">
 				<div class="input-icon__user modal-one__user"></div>
-				<input type="text" id="user-modal-one" placeholder="Имя">
+				<input type="text" id="user-modal-tree" placeholder="Имя">
 				<div class="input-icon__phone modal-one__phone"></div>
-				<input type="tel" id="phone-two" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="12" placeholder="Телефон">
+				<input type="tel" id="phone-one" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="12" placeholder="Телефон">
 				<div class="primary-btn modal-window__input-btn ">
 					<button><p>Перезвоните мне</p></button>
 				</div>
@@ -908,7 +914,7 @@
 											</p>
 										</div>
 									</div>
-									<div class="basement-box__btn col-xl primary-btn fontFamilyLato">
+									<div class="basement-box__btn col-xl primary-btn hidden-desctop fontFamilyLato">
 										<form action="index.html"><button type="submit">Оставить заявку</button></form>
 									</div>
 								</div>
@@ -922,6 +928,9 @@
 										<input type="text" id="point3" placeholder="Адрес новостройки">
 										<div class="input-icon__phone basement-icon basement-icon__phone"></div>
 										<input type="tel" id="phone3" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="12" placeholder="Телефон">
+									</div>
+									<div class="description-box__btn col-xl primary-btn hidden-mobile fontFamilyLato">
+										<form action="index.html"><button type="submit">Оставить заявку</button></form>
 									</div>
 									<div class="description-checkbox fontFamilyGilroy">
 										<p>Нажимая на кнопку, вы даете согласие на обработку своих персональных данных и соглашаетесь с политикой конфеденциальности</p>
@@ -948,9 +957,9 @@
 			</div>
 			<div class="modal-questions__input  input-primary fontFamilyLato">
 				<div class="modal-two__user input-icon__user"></div>
-				<input type="text" id="user-modal-one" placeholder="Имя">
+				<input type="text" id="user-modal" placeholder="Имя">
 				<div class="modal-two__phone input-icon__phone "></div>
-				<input type="tel" id="phone-tree" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="12" placeholder="Телефон">
+				<input type="tel" id="phone-four" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="12" placeholder="Телефон">
 				<div class="modal-two__comment"></div>
 				<textarea rows="10" cols="45" name="text" placeholder="Задайте свой вопрос"></textarea>
 				<div class="primary-btn modal-questions__input-btn ">
@@ -1000,9 +1009,9 @@
 			</div>
 			<div class="modal-window__input  input-primary fontFamilyLato">
 				<div class="input-icon__user modal-one__user"></div>
-				<input type="text" id="user-modal-one" placeholder="Имя">
+				<input type="text" id="user-modal-two" placeholder="Имя">
 				<div class="input-icon__phone modal-one__phone"></div>
-				<input type="tel" id="phone-two" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="12" placeholder="Телефон">
+				<input type="tel" id="phone-tree" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="12" placeholder="Телефон">
 				<div class="primary-btn modal-window__input-btn ">
 					<button><p>Перезвоните мне</p></button>
 				</div>
