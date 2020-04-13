@@ -208,7 +208,7 @@
 							<p>Квартира сдана с просрочкой</p>
 						</div>
 					</div>
-					<div class="defect-box__item col-xl-3">
+					<div class="defect-box__item col-xl-3 hidden-desctop">
 						<div class="defect-box__item-img">
 							<img src="./img/defect/defect-plintus.png" alt="">
 						</div>
@@ -224,7 +224,7 @@
 							<p>Промерзают углы, стены и окна, образуется черный налет</p>
 						</div>
 					</div>
-					<div class="defect-box__item col-xl-3">
+					<div class="defect-box__item col-xl-3 hidden-desctop">
 						<div class="defect-box__item-img">
 							<img src="./img/defect/defect-tile.png" alt="">
 						</div>
@@ -232,7 +232,7 @@
 							<p>На кафеле имеются сколы и неровные стыки</p>
 						</div>
 					</div>
-					<div class="  defect-box__item col-xl-3">
+					<div class="  defect-box__item col-xl-3 hidden-desctop">
 						<div class="defect-box__item-img">
 							<img src="./img/defect/defect-wallpaper.png" alt="">
 						</div>
@@ -248,7 +248,7 @@
 							<p>Квартира имеет неровные стены, полы, потолки, а также отслаивание штукатурки</p>
 						</div>
 					</div>
-					<div class="  delay-2s defect-box__item col-xl-3">
+					<div class="  delay-2s defect-box__item col-xl-3 hidden-desctop">
 						<div class="defect-box__item-img">
 							<img src="./img/defect/defect-paint.png" alt="">
 						</div>
@@ -256,7 +256,7 @@
 							<p>Окрашенные поверхности имеют разводы и потеки</p>
 						</div>
 					</div>
-					<div class="  delay-3s defect-box__item col-xl-3">
+					<div class="  delay-3s defect-box__item col-xl-3 hidden-desctop">
 						<div class="defect-box__item-img">
 							<img src="./img/defect/defect-stuffy.png" alt="">
 						</div>
@@ -899,43 +899,45 @@
 						</div>
 					</div>
 				</div>
-				<div class="basement  ">
-					<div class="container">
-						<div class="row">
-							<div class="basement-boxes">
-								<div class="basement-box col-xl-4">
-									<div class="basement-box__text fontFamilyLato">
-										<div class="basement-text__title fontFamilyGilroy dark-h">
-											<h2>Опишите<span> квартиру</span></h2>
-										</div>
-										<div class="basement-text__subtitle fontFamilyLato">
-											<p>
-												Мы свяжемся с Вами, чтобы уточнить детали и обсудим дальнейшие шаги
-											</p>
-										</div>
-									</div>
-									<div class="basement-box__btn col-xl primary-btn hidden-desctop fontFamilyLato">
-										<form action="index.html"><button type="submit">Оставить заявку</button></form>
-									</div>
+			</div>
+		</div>
+	</section>
+	<section class="basement-item">
+		<div class="basement">
+			<div class="container">
+				<div class="row">
+					<div class="basement-boxes">
+						<div class="basement-box col-xl-4">
+							<div class="basement-box__text fontFamilyLato">
+								<div class="basement-text__title fontFamilyGilroy dark-h">
+									<h2>Опишите<span> квартиру</span></h2>
 								</div>
-								<div class="basement-wraper col-xl-8 fontFamilyLato">
-									<div class="basement-input df input-primary">
-										<div class="input-icon__border basement-icon basement-icon__border"></div>
-										<input type="text" id="border3" inputmode="numeric" maxlength="10" placeholder="Площадь">
-										<div class="input-icon__user basement-icon basement-icon__user"></div>
-										<input type="text" id="user3" placeholder="Имя">
-										<div class="input-icon__point basement-icon basement-icon__point"></div>
-										<input type="text" id="point3" placeholder="Адрес новостройки">
-										<div class="input-icon__phone basement-icon basement-icon__phone"></div>
-										<input type="tel" id="phone3" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="12" placeholder="Телефон">
-									</div>
-									<div class="description-box__btn col-xl primary-btn hidden-mobile fontFamilyLato">
-										<form action="index.html"><button type="submit">Оставить заявку</button></form>
-									</div>
-									<div class="description-checkbox fontFamilyGilroy">
-										<p>Нажимая на кнопку, вы даете согласие на обработку своих персональных данных и соглашаетесь с политикой конфеденциальности</p>
-									</div>
+								<div class="basement-text__subtitle fontFamilyLato">
+									<p>
+										Мы свяжемся с Вами, чтобы уточнить детали и обсудим дальнейшие шаги
+									</p>
 								</div>
+							</div>
+							<div class="basement-box__btn col-xl primary-btn hidden-desctop fontFamilyLato">
+								<form action="index.html"><button type="submit">Оставить заявку</button></form>
+							</div>
+						</div>
+						<div class="basement-wraper col-xl-8 fontFamilyLato">
+							<div class="basement-input df input-primary">
+								<div class="input-icon__border basement-icon basement-icon__border"></div>
+								<input type="text" id="border3" inputmode="numeric" maxlength="10" placeholder="Площадь">
+								<div class="input-icon__user basement-icon basement-icon__user"></div>
+								<input type="text" id="user3" placeholder="Имя">
+								<div class="input-icon__point basement-icon basement-icon__point"></div>
+								<input type="text" id="point3" placeholder="Адрес новостройки">
+								<div class="input-icon__phone basement-icon basement-icon__phone"></div>
+								<input type="tel" id="phone3" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="12" placeholder="Телефон">
+							</div>
+							<div class="description-box__btn col-xl primary-btn hidden-mobile fontFamilyLato">
+								<form action="index.html"><button type="submit">Оставить заявку</button></form>
+							</div>
+							<div class="description-checkbox fontFamilyGilroy">
+								<p>Нажимая на кнопку, вы даете согласие на обработку своих персональных данных и соглашаетесь с политикой конфеденциальности</p>
 							</div>
 						</div>
 					</div>
