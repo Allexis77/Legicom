@@ -45,7 +45,7 @@
 						<div class="header-phone__img">
 							<img data-original="./img/icon/whatsApp-icon.svg" class="lazyload" alt="WhatsApp Icon">
 						</div>
-						<div class="header-phone__link df fdc fontFamilyLato">
+						<div class="header-phone__link df fdc fontFamilyLato contact">
 							<a href="tel:88005555885">8 (800) 555-58-85</a>
 							<span id="ApplicationBtn-item-One">Заказать обратный звонок</span>
 						</div>
@@ -992,7 +992,7 @@
 					<div class="footer-phone__img">
 						<img data-original="./img/icon/whatsApp-icon.svg" class="lazyload" alt="WhatsApp Icon">
 					</div>
-					<div class="footer-phone__link header-phone__link df fdc fontFamilyLato">
+					<div class="footer-phone__link header-phone__link df contact fdc fontFamilyLato">
 						<a href="tel:88005555885">8 (800) 555-58-85</a>
 						<span id="ApplicationBtn-item-Two">Заказать обратный звонок</span>
 					</div>
@@ -1040,7 +1040,63 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
 	<script src="./js/scripts.min.js"></script>	
-
+	<script charset="utf-8" src="http://api-maps.yandex.ru/1.1/index.xml" type="text/javascript"></script>
+	<script>
+	$(document).ready(function() {
+	if (YMaps.location.region != '') {
+	var youRegion = (YMaps.location.region);
+	if (youRegion === "Рязанская область"){
+	$('.contact a').text('8 (929) 908-08-36');
+	}
+	else if (youRegion === "Белгородская область"){
+	$('.contact a').text('8 (929) 908-08-36');
+	}
+	else if (youRegion === "Ивановская область"){
+	$('.contact a').text('8 (929) 908-08-36');
+	}
+	else if (youRegion === "Владимирская область"){
+	$('.contact a').text('8 (929) 908-08-36');
+	}
+	else if (youRegion === "Тверская область"){
+	$('.contact a').text('8 (929) 908-08-36');
+	}
+	else if (youRegion === "Тульская область"){
+	$('.contact a').text('8 (929) 908-08-36');
+	}
+	else if (youRegion === "Ярославская область"){
+	$('.contact a').text('8 (929) 908-08-36');
+	}
+	else if (youRegion === "Ярославская область"){
+	$('.contact a').text('8 (929) 908-08-36');
+	}
+	else if (youRegion === "Липецкая область"){
+	$('.contact a').text('8 (929) 908-08-36');
+	}
+	else if (youRegion === "Тамбовская область"){
+	$('.contact a').text('8 (929) 908-08-36');
+	}
+	else if (youRegion === "Воронежская область"){
+	$('.contact a').text('8 (929) 908-08-36');
+	}
+	else if (youRegion === "Орловская область"){
+	$('.contact a').text('8 (929) 908-08-36');
+	}
+	else if (youRegion === "Брянская область"){
+	$('.contact a').text('8 (929) 908-08-36');
+	}
+	else if (youRegion === "Смоленская область"){
+	$('.contact a').text('8 (929) 908-08-36');
+	}
+	else if (youRegion === "Калужская область"){
+	$('.contact a').text('8 (929) 908-08-36');
+	}
+	else {
+	$('.contact a').text('8 (925) 501-34-73');
+	}
+	}
+	
+	});
+	</script>
 
 </body>
 </html>
